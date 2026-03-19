@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Porfolio Profesional</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #e0e0e0;
+            background-color: #0f172a;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Encabezado / Hero */
+        header {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border-bottom: 1px solid #334155;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #94a3b8;
+        }
+
+        /* Secciones */
+        section {
+            margin-top: 50px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #38bdf8;
+            display: inline-block;
+            padding-bottom: 5px;
+            color: #f8fafc;
+        }
+
+        /* Proyectos (Grid) */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #38bdf8;
+        }
+
+        /* Etiquetas de habilidades */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .skill-item {
+            background: #334155;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Contacto */
+        .contact-btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #0f172a;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Andres Urueña Zambrano</h1>
+            <p class="subtitle">Soy informatico </p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy un profesional apasionado por en informatico. me especializo en crear soluciones que optimizan procesos y generan valor real. Mi enfoque combina la técnica con una visión estratégica.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades Técnicas</h2>
+            <ul class="skills-list">
+                <li class="skill-item">Solucion de hardware</li>
+                <li class="skill-item">Solucion de sotfware</li>
+                <li class="skill-item">Conocimineto sobre odoo18</li>
+                
+            </ul>
+        </section>
+
+       
+
+        <section id="contact" style="text-align: center;">
